@@ -1,0 +1,29 @@
+.seccion{
+    display: flex;
+    
+    width: 100%;
+}
+
+.imagen-y-texto{
+    background-image: url(img/programacion-2-e1551291144973.jpg);
+    background-size: 100%;
+    width: 50%;
+    height: auto;
+    
+}
+
+.hola{
+    color: white;
+    text-align: center;
+    padding: 55px;
+    background-color: rgb(96, 118, 216, 0.5);
+    font-size: 40px;
+}
+
+.texto{
+    width: 50%;
+    text-align: justify;
+    padding: 45px;
+    font-size: 25px;
+    
+}

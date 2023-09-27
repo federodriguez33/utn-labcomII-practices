@@ -1,0 +1,126 @@
+/* General */
+body{
+    margin: 0px;
+}
+
+
+/* Encabezado */
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: #efefe8;
+    border-top: 1px solid black;
+}
+
+.logo-encabezado{
+    width: 150px;
+    height: 38px;
+    padding: 5px;
+}
+
+.active-encabezado{
+    width: 50%;
+}
+
+.lista{
+    list-style: none;
+    margin-top: 17px;
+}
+
+.lista a{
+    text-decoration: none;
+}
+
+.lista li{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.lista a:hover{
+    border-bottom: 1px solid black;
+    padding: 15px;
+  }
+
+.profile-encabezado{
+    width: 50%;
+}
+
+.usuario{
+    width: 24px;
+    position: absolute;
+    left: 1290px;
+    margin-top: 12px;
+}
+
+
+/* 1ra seccion central */
+.main-image{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.utn-alumnos{
+    background-image: url(../img/utn-alumnos.jpg);
+    background-size: 1500px;
+    width: 50%;
+    height: 200px;
+    height: 230px;
+}
+
+.bienvendio_utn{
+    color: white;
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.img-content{
+    width: 50%;
+    height: 200px;
+}
+
+.texto1{
+    padding: 40px;
+    padding-top: 30px;  
+}
+
+
+/* 2da seccion central descripcion carreras */
+.carreras_titulo {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    padding: 2%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.carreras{
+    display: flex;
+    flex-direction: row;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.carrera{
+    padding: 20px;
+}
+
+.carrera:hover{
+    background-color: rgba(250,250,250,.3);
+}
+
+.pie{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: rgb(240,240,240);
+    padding: 20px;
+}
