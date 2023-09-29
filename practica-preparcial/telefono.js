@@ -21,7 +21,7 @@ let calculatePrice = function(){
     
 
     precio_total = precio_capacidad * cantidad;
-    document.getElementById("result").innerText = precio_total
+    document.getElementById("result").innerText = "Precio: $" + precio_total;
 
 }
 
